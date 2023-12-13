@@ -1,0 +1,148 @@
+/*Generellt*/
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #cfbfa4;
+}
+
+/*header*/
+.banner {
+	width: 90%;
+	padding: 5px;
+	border: #454242 3px solid;
+	display: block;
+	margin: 0 auto;
+}
+
+.meny {
+	text-align: center;
+}
+
+.sidor {
+	padding: 10px 25px;
+}
+
+/*Länkar*/
+a:link {
+	color: #454242;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#454242;
+}
+
+a:hover {
+	color: #1f2020;
+	font-weight: 700;
+}
+
+a:active {
+	font-style: italic;
+}
+
+hr {
+	border-color: #454242;
+}
+
+/*Stilmall innehåll startsida*/
+.yarn {
+	border: #454242 3px solid;
+	display: block;
+	margin: 0 auto;
+}
+
+.rubrik_index {
+	text-align: center;
+}   
+
+.article {
+	width: 80%;
+	margin: 0 auto;
+   }
+/*Om mig*/
+
+.rubrik_ommig {
+	text-align: center;
+}
+
+
+.om_mig {
+	display: flex;
+	gap: 30px;
+}
+
+.sockor {
+	display: block;
+	margin: 0 auto;
+}
+
+/*Galleri*/
+.rubrik-galleri {
+	text-align: center;
+}
+
+.galleri {
+	display: block;
+	margin-left: 20%;	
+}
+
+.bild {
+	padding: 10px;
+}
+
+/*Footer*/
+
+.copyright {
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.contact-me {
+	text-align: center;
+}
+
+/*Kontaktformulär*/
+
+form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical 
+  }
+  
+  /* Submit-knapp*/
+  input[type=submit] {
+	background-color: #7a6542;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* Muspekare över knappen*/
+  input[type=submit]:hover {
+	background-color: #464132;
+  }
+  
+  /* Stil för formuläret */
+  .contact {
+	border-radius: 5px;
+	background-color: #cfbfa4;
+	padding: 20px;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+
+  }
